@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>382</width>
+    <height>332</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>382</width>
+    <height>332</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>382</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>PhotoConventor</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(38, 32, 38);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton {
+	background-color: rgb(209, 0, 174);
+	color: rgb(255, 255, 255);
+	font: 44pt &quot;Bebas Neue Cyrillic&quot;;
+}
+
+#pushButton:hover {
+	background-color: #a61c98;
+	color: rgb(255, 255, 255);
+	font: 44pt &quot;Bebas Neue Cyrillic&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>To PNG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>120</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_2 {
+	background-color: rgb(209, 0, 174);
+	color: rgb(255, 255, 255);
+	font: 44pt &quot;Bebas Neue Cyrillic&quot;;
+}
+
+#pushButton_2:hover {
+	background-color: #a61c98;
+	color: rgb(255, 255, 255);
+	font: 44pt &quot;Bebas Neue Cyrillic&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>To JPG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>361</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_3 {
+	background-color: rgb(209, 0, 174);
+	color: rgb(255, 255, 255);
+	font: 44pt &quot;Bebas Neue Cyrillic&quot;;
+}
+
+#pushButton_3:hover {
+	background-color: #a61c98;
+	color: rgb(255, 255, 255);
+	font: 44pt &quot;Bebas Neue Cyrillic&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>SELECT FILE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_4 {
+	background-color: rgb(209, 0, 174);
+	color: rgb(255, 255, 255);
+	font: 44pt &quot;Bebas Neue Cyrillic&quot;;
+}
+
+#pushButton_4:hover {
+	background-color: #a61c98;
+	color: rgb(255, 255, 255);
+	font: 44pt &quot;Bebas Neue Cyrillic&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>To bmp</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>230</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_5 {
+	background-color: rgb(209, 0, 174);
+	color: rgb(255, 255, 255);
+	font: 44pt &quot;Bebas Neue Cyrillic&quot;;
+}
+
+#pushButton_5:hover {
+	background-color: #a61c98;
+	color: rgb(255, 255, 255);
+	font: 44pt &quot;Bebas Neue Cyrillic&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>To tiff</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>382</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
